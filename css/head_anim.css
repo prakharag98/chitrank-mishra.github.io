@@ -16,7 +16,7 @@ body{
 	background-image: linear-gradient(rgba(153, 102, 51,0.9) 55%, rgb(255,255,255));
 	border:1px solid blue;
 	float:left;
-	overflow-x: hidden;
+	overflow-y: hidden;
 }
 
 #head-div3{

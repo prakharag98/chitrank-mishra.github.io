@@ -1,0 +1,27 @@
+body{
+	background-color: #917b39;
+}
+
+.img-max{
+	max-width:300px;
+	width:100%;
+}
+
+.img-floater{
+	position:absolute;
+	animation:spin 4s linear infinite;
+}
+
+#col-sm-12{
+	background-image: linear-gradient(rgba(153, 102, 51,0.9) 55%, rgb(255,255,255));
+	border:1px solid blue;
+	float:left;
+}
+
+#head-div3{
+border:1px solid black;
+
+}
+
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

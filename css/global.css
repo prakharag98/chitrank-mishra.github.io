@@ -3,7 +3,7 @@
 }
 
 #name{
-	font-family:marvel ;
+	font-family:marvel;
 	font-size: 9vw;
 	text-align: center;
 	color: rgb(0, 122, 204);
@@ -18,7 +18,7 @@ border: 1px solid red;
 @font-face {
     font-family: marvel;
     font-weight: bold;
-    src: url("fonts/Geometos.ttf");
+    src:url("fonts/strasua.ttf	") ;
 }
 
 @font-face {

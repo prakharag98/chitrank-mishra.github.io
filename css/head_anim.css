@@ -1,6 +1,3 @@
-body{
-	background-color: #917b39;
-}
 
 .img-max{
 	max-width:300px;
@@ -10,17 +7,40 @@ body{
 .img-floater{
 	position:absolute;
 	animation:spin 4s linear infinite;
+
 }
 
-#col-sm-12{
-	background-image: linear-gradient(rgba(153, 102, 51,0.9) 55%, rgb(255,255,255));
+.img-fluid{
+
+}
+
+#img-floater-1{
+
+}
+
+#img-floater-2{
+	
+}
+
+#img-floater-3{
+	
+}
+
+#head-section{
+	background-image: linear-gradient(rgba(0, 153, 153,0.9) 55%, rgba(255,255,255,0));	
 	border:1px solid blue;
 	float:left;
-	overflow-y: hidden;
+	overflow: hidden;
+	z-index: -1;
+}
+
+#head-div1{
+	
+	z-index:0;
 }
 
 #head-div3{
-border:1px solid black;
+border:1px solid black;background-image:url("head1.png");
 
 }
 

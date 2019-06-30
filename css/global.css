@@ -1,0 +1,27 @@
+.body{
+	background-color: rgb(240, 240, 245);
+}
+
+#name{
+	font-family:marvel ;
+	font-size: 9vw;
+	text-align: center;
+	color: rgb(0, 122, 204);
+	margin-top: -250px;
+}
+
+#head-div2{
+border: 1px solid red;
+
+}
+
+@font-face {
+    font-family: marvel;
+    font-weight: bold;
+    src: url("fonts/Geometos.ttf");
+}
+
+@font-face {
+    font-family: caviar;
+    src: url('Caviar-Dreams/Caviar_Dreams_Bold.ttf');
+}

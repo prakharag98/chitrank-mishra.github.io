@@ -5,7 +5,7 @@
     console.log(w);
     console.log(h);
     document.getElementById("head-div1").style.width=w+"px";
-    document.getElementById("head-div1").style.height=0.8*h+"px";
+    document.getElementById("head-div1").style.height="600px";
 
     document.getElementById("img-floater-1").style.top="0px";
     document.getElementById("img-floater-1").style.left="0px";
@@ -24,7 +24,7 @@ function start()
     console.log(w);
     console.log(h);
     document.getElementById("head-div1").style.width=w+"px";
-    document.getElementById("head-div1").style.height=0.8*h+"px";
+    document.getElementById("head-div1").style.height="600px";
 
     document.getElementById("img-floater-1").style.top="0px";
     document.getElementById("img-floater-1").style.left="0px";
@@ -108,3 +108,10 @@ function start()
 }
 window.onload=start;
 window.onresize=adjust;
+
+function full_page_animate(){
+
+
+
+  
+}

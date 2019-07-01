@@ -35,8 +35,13 @@
 }
 
 #head-div1{
-
 	z-index:0;
+	
+}
+
+#head-div2{
+	
+
 }
 
 #head-div3{
@@ -44,5 +49,19 @@ border:1px solid black;background-image:url("head1.png");
 
 }
 
+#name{
+	font-family:marvel;
+	font-size: 9vw;
+	text-align: center;
+	color: #AE4934;
+	opacity:0.9;
+	margin-top:0%;
+}
+
+@font-face {
+    font-family: marvel;
+    font-weight: bold;
+    src:url("../fonts/strasua.ttf") ;
+}
 
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

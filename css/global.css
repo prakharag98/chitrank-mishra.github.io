@@ -1,24 +1,27 @@
 .body{
-	background-color: rgb(240, 240, 245);
+	background-color: black;                //(240, 240, 245) grey
+	color:white;
+	width:100vw;
 }
 
 #name{
 	font-family:marvel;
 	font-size: 9vw;
 	text-align: center;
-	color: rgb(0, 122, 204);
-	margin-top: -250px;
+	color: #AE4934;
+	opacity:0.9;
+	margin-top: -15vh;
 }
 
 #head-div2{
-border: 1px solid red;
+
 
 }
 
 @font-face {
     font-family: marvel;
     font-weight: bold;
-    src:url("fonts/strasua.ttf	") ;
+    src:url("../fonts/strasua.ttf") ;
 }
 
 @font-face {

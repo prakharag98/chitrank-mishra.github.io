@@ -1,0 +1,31 @@
+#info{
+	float:left;
+	color:white;
+	font-family: caviar;
+	font-size: 2vw;
+	padding-left: 7vw;
+	padding-top: 10vh;
+}
+
+#info-div{
+	position:absolute;
+	height: 86vh;
+	border:2px solid red;
+	width: 100vw;
+	margin-left: 1vw;
+}
+
+#display_pic{
+	float:right;
+}
+
+#pic{
+	border-radius: 20px;
+	margin-right:;
+	position: absolute;
+}
+
+@font-face{
+	font-family: caviar;
+	src:url("../fonts/Caviar-Dreams/CaviarDreams.ttf");
+}

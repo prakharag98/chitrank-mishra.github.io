@@ -1,3 +1,22 @@
+  function adjust()
+{
+    var w=window.innerWidth;
+    var h=window.innerHeight;
+    console.log(w);
+    console.log(h);
+    document.getElementById("head-div1").style.width=w+"px";
+    document.getElementById("head-div1").style.height=0.8*h+"px";
+
+    document.getElementById("img-floater-1").style.top="0px";
+    document.getElementById("img-floater-1").style.left="0px";
+    document.getElementById("img-floater-2").style.top=0.3*h+"px";
+    document.getElementById("img-floater-2").style.left=0.5*w+"px";
+    document.getElementById("img-floater-3").style.top=0.5*h+"px";
+    document.getElementById("img-floater-3").style.left=0.5*w+"px";
+}
+
+
+
 function start()
 {
     var w=window.innerWidth;
@@ -88,3 +107,4 @@ function start()
     }
 }
 window.onload=start;
+window.onresize=adjust;
